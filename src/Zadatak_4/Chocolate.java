@@ -1,4 +1,4 @@
-package Vezba_9;
+package Zadatak_4;
 
     public class Chocolate extends Product {
         double tezina;

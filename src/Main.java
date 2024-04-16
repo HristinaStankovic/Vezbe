@@ -1,6 +1,6 @@
-import Vezba_9.Chocolate;
-import Vezba_9.Product;
-import Vezba_9.Wine;
+import Zadatak_4.Chocolate;
+import Zadatak_4.Product;
+import Zadatak_4.Wine;
 
 public class Main {
             public static void main(String[] args) {

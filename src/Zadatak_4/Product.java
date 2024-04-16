@@ -1,4 +1,4 @@
-package Vezba_9;
+package Zadatak_4;
 
 public class Product {
         String nazivProizvoda;
