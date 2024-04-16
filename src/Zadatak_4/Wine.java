@@ -12,8 +12,11 @@ package Zadatak_4;
 
         @Override
         public double cenaSaPDV_om() {
-            return super.cenaSaPDV_om() * dodatniPorez;
+            double punaCena = osnovnaCena + (osnovnaCena * porez);
+            double cenaMarzirana = punaCena + (punaCena * dodatniPorez);
+            return cenaMarzirana;
         }
+
 
         @Override
         public String toString() {

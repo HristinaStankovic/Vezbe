@@ -15,7 +15,7 @@ public class Product {
 
         public double cenaSaPDV_om() {
 
-             double punaCena = osnovnaCena *  porez;
+             double punaCena = osnovnaCena + (osnovnaCena *  porez);
             return punaCena;
         }
 

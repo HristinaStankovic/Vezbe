@@ -38,9 +38,9 @@ public class Main {
 
                 System.out.println("----------------------------------------------------------------------------------------------");
 
-                Product product = new Product("Proizvod", 111111111111111L,00,0.2);
+                Product product = new Product("Proizvod", 111111111111111L,10,0.2);
                 System.out.println(product);
-                Wine wine = new Wine("Plavac", 381361831878738L,700,0.2,0.1,0.7);
+                Wine wine = new Wine("Plavac", 381361831878738L,100,0.2,0.1,0.7);
                 System.out.println(wine);
                 Chocolate chocolate = new Chocolate("Ferrero Dark",76478647746767L,879,0.2,100);
                 System.out.println(chocolate);
